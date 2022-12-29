@@ -61,7 +61,9 @@ const questions = [
       },
       //// Open Calendly
       {
-        name: `Let's coordinate a meet! Through Calendly`,
+        name: `Let's coordinate a meeting! ${chalk.red.bold(
+          "Through Calendly"
+        )}`,
         value: () => {
           open(`https://calendly.com/valentinlujambio/lets-talk`);
           console.log("\nDone, wait for your message.\n");
