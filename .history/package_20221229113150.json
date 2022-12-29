@@ -1,13 +1,13 @@
 {
-    "name": "pachulujambio",
-    "version": "1.0.0",
-    "author": "Valentin Lujambio <valentin.lujambio@gmail.com>",
-    "description": "A personal card for Valentin Lujambio",
+    "name": "rahikhan",
+    "version": "2.2.2",
+    "author": "Rahi Khan <rahikhan360@gmail.com> (https://rahikhan.gtsb.io)",
+    "description": "A personal card for Rahi Khan",
     "main": "card.js",
     "bin": "./card.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/pachulujambio/npm-card"
+        "url": "https://github.com/rahi-khan/npx_card.git"
     },
     "scripts": {
         "setup": "ncu -u && npm i",
