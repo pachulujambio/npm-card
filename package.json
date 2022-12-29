@@ -1,6 +1,6 @@
 {
   "name": "pachulujambio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Valentin Lujambio <valentin.lujambio@gmail.com>",
   "description": "A personal card for Valentin Lujambio",
   "main": "card.js",
