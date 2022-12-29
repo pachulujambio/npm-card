@@ -105,8 +105,9 @@ const me = boxen(
     `${data.labelCard}  ${data.npx}`,
     ``,
     `${chalk.italic("I am currently looking for new opportunities,")}`,
-    `${chalk.italic("my inbox is always open. If you want you can")}`,
-    `${chalk.italic("see my work or contact me by LinkedIn or by mail!")}`,
+    `${chalk.italic("my inbox is always open. if you want you can")}`,
+    `${chalk.italic("see my work if you want you can see my work or")}`,
+    `${chalk.italic("contact me by LinkedIn or by mail!")}`,
     `${chalk.italic("I wait for your message!")}`,
   ].join("\n"),
   {
