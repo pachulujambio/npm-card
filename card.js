@@ -45,7 +45,7 @@ const questions = [
       },
       //// Open LinkedIn
       {
-        name: `Open my ${chalk.blue.bold("linkedin")}?`,
+        name: `Open my ${chalk.blue.bold("linkedin")}`,
         value: () => {
           open(`https://www.linkedin.com/in/${linkedin_username}`);
           console.log("\nDone, wait for your message.\n");
@@ -53,9 +53,17 @@ const questions = [
       },
       //// Open GitHub
       {
-        name: `Open my ${chalk.white.bold("GitHub")}?`,
+        name: `Open my ${chalk.white.bold("GitHub")}`,
         value: () => {
           open(`https://github.com/${github_username}`);
+          console.log("\nDone, wait for your message.\n");
+        },
+      },
+      //// Open Calendly
+      {
+        name: `Let's coordinate a meet! Through Calendly`,
+        value: () => {
+          open(`https://calendly.com/valentinlujambio/lets-talk`);
           console.log("\nDone, wait for your message.\n");
         },
       },
