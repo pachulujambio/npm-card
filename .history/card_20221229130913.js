@@ -63,7 +63,7 @@ const questions = [
       {
         name: "Just quit.",
         value: () => {
-          console.log("Bye! Wait for your message.\n");
+          console.log("Hasta la vista.\n");
         },
       },
     ],
@@ -95,10 +95,9 @@ const me = boxen(
     `${data.labelCard}  ${data.npx}`,
     ``,
     `${chalk.italic("I am currently looking for new opportunities,")}`,
-    `${chalk.italic("my inbox is always open. if you want you can")}`,
-    `${chalk.italic("see my work if you want you can see my work or")}`,
-    `${chalk.italic("contact me by LinkedIn or by mail!")}`,
-    `${chalk.italic("I wait for your message!")}`,
+    `${chalk.italic("my inbox is always open. Whether you have a")}`,
+    `${chalk.italic("question or just want to say hi, I will try ")}`,
+    `${chalk.italic("my best to get back to you!")}`,
   ].join("\n"),
   {
     margin: 1,
